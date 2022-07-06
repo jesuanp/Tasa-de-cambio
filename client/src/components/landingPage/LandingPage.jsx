@@ -7,7 +7,7 @@ const LandingPage = () => {
     return (
         <div className={s.container}>
             <div className={s.containerText}>
-                <h1>Bienvenido a la página dónde puedes saber el precio en dolares de tu modena local</h1>
+                <h1>Conoce el precio del dólar en tu país.</h1>
             </div>
             <NavLink to='/home' className={s.NavLink}>Entrar</NavLink>
         </div>
