@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.NavLink {
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(85, 34, 133);
+    text-decoration: none;
+}
+
+.containerText {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    margin-bottom: 1rem;
+    width: 100vw;
+}
+
+.containerText h1{
+    margin: 1rem 1rem;
+}

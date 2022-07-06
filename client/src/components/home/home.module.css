@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ventana {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(85, 34, 133);
+    border-radius: 0.5rem;
+    padding: 2rem 0.5rem;
+    width: 22rem;
+    box-shadow: 6px 6px 15px rgb(136, 136, 136);
+}
+
+.head {
+    margin-bottom: 1rem;
+}
+
+.span {
+    margin-top: 1rem;
+}
