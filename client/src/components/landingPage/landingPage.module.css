@@ -9,8 +9,13 @@
 .NavLink {
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
-    background-color: rgb(85, 34, 133);
+    border: 3px solid #04AA6D;
     text-decoration: none;
+    
+}
+.NavLink:hover {
+    /*background-color: rgb(85, 34, 133);*/
+    background-color: #04AA6D;
 }
 
 .containerText {

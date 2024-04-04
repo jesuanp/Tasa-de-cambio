@@ -11,7 +11,6 @@ const Home = () => {
 
     useEffect(()=> {
         getAbbreviatioCoins();
-        console.log('useEffect');
     }, [getAbbreviatioCoins]);
 
     return (
