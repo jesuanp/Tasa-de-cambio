@@ -1,14 +1,21 @@
-import './App.css'
+import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import LandingPage from './components/landingPage/LandingPage';
+import Home from './components/home/Home';
+
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h2>React vite</h2>
-      </div>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        
+        <Route path='/' element={<LandingPage />} />
+
+        <Route path='/home' element={<Home />} />
+
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
